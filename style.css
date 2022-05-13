@@ -1,0 +1,80 @@
+body, p{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:20%;
+    margin-left: auto;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    height:30px;
+}
+
+main{
+    width:50%;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    width:80%;
+    padding:1cm;
+    border-radius: 30px;
+    border:1px solid gray;
+}
+
+.btns_container{
+    margin-top:1cm;
+    padding: auto;
+}
+
+.btns_container button{
+    padding: 1cm;
+    border:none;
+}
+
+.img-section {
+    background-color: white;
+    margin: 0;
+}
+
+.img {
+  width: 70%;
+}
+
+footer{
+    background-color: rgb(216, 215, 215);
+}
+
+.footer_top{
+    padding:1cm;
+}
+.footer_bottom{
+    padding:1cm;
+    display:flex;
+    justify-content: space-between;
+    border-top:1px solid gray;
+}
+
+.left a{
+    margin-right:1cm;
+}
+
+.right a{
+    margin-right: 1cm;
+}
+
+
